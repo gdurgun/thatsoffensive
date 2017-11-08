@@ -1,0 +1,252 @@
+body { 
+	font-family: 'courier', serif;
+	color: black;
+	/*background:url('list.png');*/
+ 
+  background-size: cover;
+	text-align: center;	
+}
+
+a.menu_links {
+ cursor: pointer; 
+}
+
+.logo {
+ position:fixed;
+ padding-top: 15px;
+ left:0;
+ margin-left: 20px1
+
+
+    
+
+}
+
+
+.site-container {
+	position: center;
+}
+
+.header {
+width: 100;
+height: 100px;
+
+}
+
+.buttonPlacement {
+	display: flex;
+  padding-bottom: 
+  width: 100%;
+  justify-content: center;
+
+}
+
+/*
+removes blue lines around button
+*/
+#button {
+	outline:0px !important;
+	-webkit-appearance:none;
+	display: flex;
+	align-items: center;
+  cursor: url(images/fuck.png) , auto;
+  
+
+}
+
+/*
+Username goes here
+*/
+.inputter {
+		
+	position: center;
+	border: 0px;
+	border-bottom: 1px solid black;
+	width: 700px;
+	color: black;
+	background: rgba(0, 0, 0, 0);
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+.site-container {
+	margin:0 auto;
+	width:auto;
+	overflow:hidden;
+	padding:0px;
+}
+
+.textcontainer {
+	width:80%;
+	text-align: center ;
+	margin-left: auto ;
+  margin-right: auto ;
+
+}
+
+/*text opacity in username line*/
+.inputter:-ms-clear { 
+	display:none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+.inputter:focus { 
+	outline-style:none;
+	box-shadow:none;
+	border-color:transparent;
+	border: 0px;
+	border-bottom: 1px solid black;
+}
+/*
+makes text disappear when user types name
+*/
+.inputter:focus::-webkit-input-placeholder { color:transparent; }
+.inputter:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.inputter:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+.inputter:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+#counter {
+	position:fixed;
+     top:16px;
+     left:16px;
+	
+}
+
+
+
+
+.link a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    position:fixed;
+    top:16px;
+    right:16px;
+  }
+
+/*
+Audio and audio hover effect
+*/
+
+  .audio {
+  position:fixed;
+     bottom:0;
+    right:0;
+    margin-right: 10px;
+}
+
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+
+.copyButton {
+  background-color: #9999ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*
+PayPal logo
+*/
+
+.payPal {
+  position:fixed;
+  bottom:0;
+  left:0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.payPal2 {
+  position:fixed;
+  margin-bottom: 10px; 
+  margin-left: 10px;
+}
+
+#about {
+  width: 250px;
+  height: 100px;
+  color: black; 
+  font-size: 18px; 
+  position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 50%;
+    left: 30%;
+
+  
+}
+
+#quote {
+  width: 350px;
+  height: 100px;
+  color: black; 
+  font-size: 18px; 
+  position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 70%;
+    left: 70%;
+
+  
+}
+
+img.logo {
+
+width: 30%;
+height: auto;
+display: block;
+margin: auto;
+
+
+
+
+
+
+
